@@ -1,7 +1,7 @@
 # CudaProjects
 My Cuda Projects
 # Matching Transform
-This project using backprogation of mean squared error to learn a hidden 4x4 transformation matrix. 
+This project uses backprogation of mean squared error to learn a hidden 4x4 transformation matrix. 
 Gradient descent may be overkill here but I see it as good practice.
 We observe (calcuate) input and output vectors to generate batches of for the optimization section.
 The derivative of squared error is assigned to the "weights" our guess transformation.
